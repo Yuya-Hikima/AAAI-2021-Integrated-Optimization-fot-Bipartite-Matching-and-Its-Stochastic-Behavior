@@ -53,7 +53,7 @@ For each experiment, we explain how to perform it.
 3. Run "Experiment_paper.sh" and see the results in the "results." Note that this code takes a long time to execute and is not parallelized.
   
 If you want to set parameters yourself, go to the Crowd-sourcing_experiment/bin folder and run "experiment_Sigmoid.py YY ZZ."
-The first argument (YY) is $\phi$ (number of workers), the second (ZZ) is $\psi$ (number of tasks).
+The first argument (YY) is $\phi$ (number of workers), and the second (ZZ) is $\psi$ (number of tasks).
 
 ## Licence
 You must follow the terms of the "SOFTWARE LICENSE AGREEMENT FOR EVALUATION."
