@@ -31,8 +31,7 @@ The following is a description of what is in each folder.
   - **bin** Folder containing the python code needed for the crowd-sourcing experiments
     - **data_download.py** It is executed by setup.sh to download the real data.
     - **generate_reward_matrix.py** It is executed by setup.sh to make simulation data from the real data.
-    - **experiment_Sigmoid.py** It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data when using Sigmoid functions as acceptance probability functions. 
-    The first argument is $\phi$ (number of workers), the second is $\psi$ (number of tasks).
+    - **experiment_Sigmoid.py** It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data when using Sigmoid functions as acceptance probability functions. The first argument (YY) is \phi (acctive rate of workers), and the second (ZZ) is \psi (acctive rate of tasks).
     - **experiment_PL.py** Experimental code It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data when using piecewise linear functions as acceptance probability functions.
   - **data** Folder where the downloaded data is stored
   - **work** Folder where the simulation data is stored
@@ -52,8 +51,7 @@ For each experiment, we explain how to perform it.
 2. Run "Experiment_test.sh" and see the results in the "results" folder to see if the code works.
 3. Run "Experiment_paper.sh" and see the results in the "results." Note that this code takes a long time to execute and is not parallelized.
   
-If you want to set parameters yourself, go to the Crowd-sourcing_experiment/bin folder and run "experiment_Sigmoid.py YY ZZ."
-The first argument (YY) is $\phi$ (number of workers), and the second (ZZ) is $\psi$ (number of tasks).
+If you want to set parameters yourself, go to the Crowd-sourcing_experiment/bin folder and run "experiment_Sigmoid.py YY ZZ." The first argument is \phi (acctive rate of workers), and the second is \psi (acctive rate of tasks).
 
 ## Licence
 You must follow the terms of the "SOFTWARE LICENSE AGREEMENT FOR EVALUATION."
