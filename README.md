@@ -1,5 +1,3 @@
-This repository is in preparation.
-
 # AAAI2021-Integrated-Optimization-for-Bipartite-Matching-and-Its-Stochastic-Behavior
 
 ## Overview
