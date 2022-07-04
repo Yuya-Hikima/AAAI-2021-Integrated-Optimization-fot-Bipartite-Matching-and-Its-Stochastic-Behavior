@@ -31,7 +31,7 @@ The following is a description of what is in each folder.
   - **bin** Folder containing the python code needed for the crowd-sourcing experiments
     - **data_download.py** It is executed by setup.sh to download the real data.
     - **generate_reward_matrix.py** It is executed by setup.sh to make simulation data from the real data.
-    - **experiment_Sigmoid.py** It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data when using Sigmoid functions as acceptance probability functions. The first argument (YY) is \phi (acctive rate of workers), and the second (ZZ) is \psi (acctive rate of tasks).
+    - **experiment_Sigmoid.py** It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data when using Sigmoid functions as acceptance probability functions. The first argument is \phi (acctive rate of workers), and the second is \psi (acctive rate of tasks).
     - **experiment_PL.py** Experimental code It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data when using piecewise linear functions as acceptance probability functions.
   - **data** Folder where the downloaded data is stored
   - **work** Folder where the simulation data is stored
