@@ -44,7 +44,7 @@ The following is a description of what is in each folder.
 Codes were implemented in Python 3.6.8.
 
 ## Usage
-For each experiment, we explain how to perform it.
+We explain how to perform it.
 
 **Crowd-sourcing experiments** 
 1. Go to the Crowd-sourcing_experiment folder, make "results", "data" and "work" folder, and then, run "setup.sh."
