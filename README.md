@@ -65,9 +65,18 @@ We explain how to perform **Crowd-sourcing experiments.**
 
 1. Go to the Crowd-sourcing_experiment folder, make "results", "data" and "work" folder, and then, run "bash setup.sh."
 2. Run "bash Experiment_test.sh" and see the results in the "results" folder to see if the code works.
-3. Run "bash Experiment_paper.sh" and see the results in the "results." Note that this code takes a long time to execute and is not parallelized.
+3. Run "bash Experiment_paper.sh" and see the results in the "results." Note that this code takes a long time to execute.
   
 If you want to set parameters yourself, go to the Crowd-sourcing_experiment/bin folder and run "python3 experiment_Sigmoid.py YY ZZ." The first argument is \phi (active rate of workers), and the second is \psi (active rate of tasks).
+
+Next, we explain how to perform **Ride-sharing experiments.** 
+
+1. Go to the Rideshre_experiment folder, make "results" folder, and then, run "bash setup.sh."
+2. Run "bash Experiment_test.sh" and see the results in the "results" folder to see if the code works.
+3. Run "bash Experiment_paper.sh" and see the results in the "results." Note that this code takes a long time to execute.
+  
+If you want to set parameters yourself, go to the bin folder and run "python3 experiment_Sigmoid.py XX YY ZZ WW". 
+The first argument is place and the second is the date of data to be used. The third and the fourth are the time interval and its unit, respectively.
 
 ## Licence
 You must follow the terms of the "SOFTWARE LICENSE AGREEMENT FOR EVALUATION."
