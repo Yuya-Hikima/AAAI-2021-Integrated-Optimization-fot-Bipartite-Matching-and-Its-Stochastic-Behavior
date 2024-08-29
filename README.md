@@ -12,6 +12,7 @@ Contents of this repository:
 - **README** This file.
 - **SOFTWARE LICENSE AGREEMENT FOR EVALUATION** The user must comply with the rules described herein.
 - **Crowd-sourcing_experiment folder** It contains the code used in the crowd-sourcing platform experiment and the code needed to set up the experiment, including data downloads.
+- **Rideshare_experiment folder** It contains the code used in the ride-sharing platform experiment and the code needed to set up the experiment, including data downloads.
 
 The data for crowd-sourcing experiments are downloaded from
   
@@ -20,6 +21,10 @@ http://dbgroup.cs.tsinghua.edu.cn/ligl/crowddata/ (Relevance Finding dataset).
 The data are shared by
   
 Chris Buckley, Matthew Lease, and Mark D. Smucker. "Overview of the TREC 2010 Relevance Feedback Track (Notebook)." In TREC, 2010.
+
+The data for experiments for the ride-sharing platform are downloaded from
+
+https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page.
 
 ## Description
 
@@ -39,6 +44,18 @@ The following is a description of what is in each folder.
     - **trec-rf10-data.csv** Converted csv data from the downloaded data
   - **results** Folder where the results are stored
     - **Average_result_XX_phi=YY_psi=ZZ.csv** The data containig results for a given parameter set
+   
+- **Rideshre_experiment** 
+  - **setup.sh** Script for setting up the experiments
+  - **Experiment_paper.sh** Scripts for performing the same experiments as in our paper
+  - **Experiment_test.sh** Scripts for small experiments to see if our codes work
+  - **bin** Folder containing the python code needed for the crowd-sourcing experiments
+    - **data_download.py** It is executed by setup.sh to download the used data.
+    - **experiment_Sigmoid.py** It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data when using Sigmoid functions as acceptance probability functions. The first argument is place and the second is the date of data to be used. The third and the fourth are the time interval and its unit, respectively.
+    - **experiment_PL.py** Experimental code It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data when using piecewise linear functions as acceptance probability functions.
+  - **data** Folder where the downloaded data is stored
+  - **work** Folder where the leraned matrix for LinUCB is stored
+  - **results** Folder where the results are stored
 
 ## Requirement
 Codes were implemented in Python 3.6.8.
