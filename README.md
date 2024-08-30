@@ -55,6 +55,7 @@ The following is a description of what is in each folder.
   - **data:** Folder where the downloaded data is stored
   - **work:** Folder where the learned matrix for LinUCB is stored
   - **results:** Folder where the results are stored
+  - **others:**  Folder containing the code used to train the matrices used in one of the baselines, LinUCB.
 
 ## Requirement
 Our code was implemented in Python 3.6.8.
@@ -66,7 +67,7 @@ We explain how to perform **Crowd-sourcing experiments.**
 2. Run "bash Experiment_test.sh" and see the results in the "results" folder to see if the code works.
 3. Run "bash Experiment_paper.sh" and see the results in the "results." Note that this code takes a long time to execute.
   
-If you want to set parameters manually, go to the Crowd-sourcing_experiment/bin folder and run "python3 experiment_Sigmoid.py YY ZZ." The first argument is \phi (active rate of workers), and the second is \psi (active rate of tasks).
+If you want to set parameters manually, go to the Crowd-sourcing_experiment/bin folder and run "python3 experiment_Sigmoid.py XX YY". The first argument is $\phi$ (active rate of workers), and the second is $\psi$ (active rate of tasks).
 
 Next, we explain how to perform **Ride-hailing experiments.** 
 
@@ -74,8 +75,8 @@ Next, we explain how to perform **Ride-hailing experiments.**
 2. Run "bash Experiment_test.sh" and see the results in the "results" folder to see if the code works.
 3. Run "bash Experiment_paper.sh" and see the results in the "results." Note that this code takes a long time to execute.
   
-If you want to set parameters manually, go to the bin folder and run "python3 experiment_Sigmoid.py XX YY ZZ WW". 
-The first argument is place and the second is the date of data to be used. The third and the fourth are the time interval and its unit, respectively.
+If you want to set parameters manually, go to the bin folder and run "python3 experiment_Sigmoid.py XX YY ZZ VV WW". 
+The first argument is place and the second is the date of data to be used. The third and the fourth are the time interval and its unit, respectively. The fifth argument represents the number of simulations.
 
 ## Licence
 You must follow the terms of the "SOFTWARE LICENSE AGREEMENT FOR EVALUATION."
