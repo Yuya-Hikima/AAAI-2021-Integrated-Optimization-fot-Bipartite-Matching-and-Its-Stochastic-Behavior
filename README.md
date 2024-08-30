@@ -11,7 +11,7 @@ Contents of this repository:
 - **README:** This file.
 - **SOFTWARE LICENSE AGREEMENT FOR EVALUATION:** The user must comply with the rules described herein.
 - **Crowd-sourcing_experiment folder:** It contains the code used in the crowd-sourcing platform experiment and the code needed to set up the experiment, including data downloads.
-- **Ride-hailing_experiment folder:** It contains the code used in the ride-hailing platform experiment and the code needed to set up the experiment, including data downloads.
+- **Rideshare_experiment folder:** It contains the code used in the ride-hailing platform experiment and the code needed to set up the experiment, including data downloads.
 
 The data for crowd-sourcing experiments are downloaded from
   
@@ -44,7 +44,7 @@ The following is a description of what is in each folder.
   - **results:** Folder where the results are stored
     - **Average_result_XX_phi=YY_psi=ZZ.csv:** The data containing results for a given parameter set
    
-- **Ride-hailing_experiment:** 
+- **Rideshare_experiment:** 
   - **setup.sh:** Script for setting up the experiments
   - **Experiment_paper.sh:** Scripts for performing the same experiments as in our paper
   - **Experiment_test.sh:** Scripts for small experiments to see if our code works
@@ -70,7 +70,7 @@ If you want to set parameters manually, go to the Crowd-sourcing_experiment/bin 
 
 Next, we explain how to perform **Ride-hailing experiments.** 
 
-1. Go to the Ride-hailing_experiment folder, create "results" folder, and then, run "bash setup.sh."
+1. Go to the Rideshare_experiment folder, create "results" folder, and then, run "bash setup.sh."
 2. Run "bash Experiment_test.sh" and see the results in the "results" folder to see if the code works.
 3. Run "bash Experiment_paper.sh" and see the results in the "results." Note that this code takes a long time to execute.
   
