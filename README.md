@@ -35,7 +35,7 @@ The following is a description of what is in each folder.
   - **bin:** Folder containing the python code needed for the crowd-sourcing experiments
     - **data_download.py:** It is executed by setup.sh to download the real data.
     - **generate_reward_matrix.py:** It is executed by setup.sh to make simulation data from the real data.
-    - **experiment_Sigmoid.py:** It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data when using Sigmoid functions as acceptance probability functions. The first argument is \phi (active rate of workers), and the second is \psi (active rate of tasks).
+    - **experiment_Sigmoid.py:** It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data when using Sigmoid functions as acceptance probability functions. The first argument is $\phi$ (active rate of workers), and the second is $\psi$ (active rate of tasks).
     - **experiment_PL.py:** Experimental code It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data when using piecewise linear functions as acceptance probability functions.
   - **data:** Folder where the downloaded data is stored
   - **work:** Folder where the simulation data is stored
@@ -50,7 +50,7 @@ The following is a description of what is in each folder.
   - **Experiment_test.sh:** Scripts for small experiments to see if our code works
   - **bin:** Folder containing the python code needed for the crowd-sourcing experiments
     - **data_download.py:** It is executed by setup.sh to download the used data.
-    - **experiment_Sigmoid.py:** It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data when using Sigmoid functions as acceptance probability functions. The first argument is place and the second is the date of data to be used. The third and the fourth are the time interval and its unit, respectively.
+    - **experiment_Sigmoid.py:** It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data when using Sigmoid functions as acceptance probability functions. The first argument is place and the second is the date of data to be used. The third and the fourth are the time interval ($t_s$ in our paper) and its unit, respectively.
     - **experiment_PL.py:** Experimental code It is executed by Experiment.sh or Experiment_test.sh to perform experiments using simulated data when using piecewise linear functions as acceptance probability functions.
   - **data:** Folder where the downloaded data is stored
   - **work:** Folder where the learned matrix for LinUCB is stored
