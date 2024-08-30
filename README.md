@@ -59,7 +59,7 @@ The following is a description of what is in each folder.
   - **results:** Folder where the results are stored
   - **others:**  Folder containing the code used to train the matrices used in one of the baselines, LinUCB.
 
-## Requirement
+## Requirements
 Our code was implemented in Python 3.6.8.
 
 ## Usage
@@ -82,7 +82,7 @@ The first argument is place and the second is the date of data to be used. The t
 
 ## License
 You must follow the terms of the "SOFTWARE LICENSE AGREEMENT FOR EVALUATION."
-Please ensure you read it thoroughly.
+Please make sure to read it thoroughly.
 
 ## Author
 This text was written by Yuya Hikima.
