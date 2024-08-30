@@ -34,7 +34,7 @@ The following is a description of what is in each folder.
   - **setup.sh:** Script for setting up the experiments
   - **Experiment_paper.sh:** Scripts for performing the same experiments as in our paper
   - **Experiment_test.sh:** Scripts for small experiments to see if our code works
-  - **bin:** Folder containing the python code needed for the crowd-sourcing experiments
+  - **bin:** Folder containing the Python code needed for the crowd-sourcing experiments
     - **data_download.py:** Executed by setup.sh to download the used data.
     - **generate_reward_matrix.py:** Executed by setup.sh to make simulation data from the real data.
     - **experiment_Sigmoid.py:** Executed by Experiment.sh or Experiment_test.sh to perform experiments with simulated data using Sigmoid functions as acceptance probability functions. The first argument is $\phi$, the active rate of workers, and the second is $\psi$, the active rate of tasks.
@@ -50,7 +50,7 @@ The following is a description of what is in each folder.
   - **setup.sh:** Script for setting up the experiments
   - **Experiment_paper.sh:** Scripts for performing the same experiments as in our paper
   - **Experiment_test.sh:** Scripts for small experiments to see if our code works
-  - **bin:** Folder containing the python code needed for the crowd-sourcing experiments
+  - **bin:** Folder containing the Python code needed for the crowd-sourcing experiments
     - **data_download.py:** Executed by setup.sh to download the used data.
     - **experiment_Sigmoid.py:** Executed by Experiment.sh or Experiment_test.sh to perform experiments with simulated data using Sigmoid functions as acceptance probability functions. The first argument is place and the second is the date of data to be used. The third and the fourth are the time interval ($t_s$ in our paper) and its unit, respectively.
     - **experiment_PL.py:** Executed by Experiment.sh or Experiment_test.sh to perform experiments with simulated data using piecewise linear functions as acceptance probability functions.
@@ -65,7 +65,7 @@ Our code was implemented in Python 3.6.8.
 ## Usage
 Instructions for performing experiments on a crowdsourcing platform:
 
-1. Go to the Crowd-sourcing_experiment folder, create "results", "data" and "work" folders, and then, run "bash setup.sh."
+1. Go to the Crowd-sourcing_experiment folder, create the "results", "data" and "work" folders, and then, run "bash setup.sh."
 2. Run "bash Experiment_test.sh" and see the results in the "results" folder to see if the code works.
 3. Run "bash Experiment_paper.sh" and see the results in the "results." Note that this code takes a long time to execute.
   
